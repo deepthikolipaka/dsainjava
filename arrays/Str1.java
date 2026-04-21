@@ -1,12 +1,12 @@
 import java.util.Arrays;
 import java.util.Scanner;
-public class Str1 {
+public class Str1{
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n=in.nextInt();
-        String []a=new String[n];
+        int []a=new int[n];
         for(int i=0;i<n;i++){
-            a[i]=in.nextLine();
+            a[i]=in.nextInt();
         }
         System.out.println(Arrays.toString(a));
     }
